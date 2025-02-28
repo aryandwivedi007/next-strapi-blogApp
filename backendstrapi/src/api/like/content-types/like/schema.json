@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "likes",
+  "info": {
+    "singularName": "like",
+    "pluralName": "likes",
+    "displayName": "Like"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "likeCount": {
+      "type": "integer"
+    }
+  }
+}
