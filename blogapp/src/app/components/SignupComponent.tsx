@@ -16,8 +16,8 @@ import { useForm } from "react-hook-form";
 import Link from "next/link";
 import { toast } from "react-toastify";
 import * as yup from "yup";
-// import { useRegisterMutation } from "../services/api"; // Adjust path as per your structure
-import PasswordInput from "./PasswordInput"; // Adjust path as needed
+
+import PasswordInput from "./PasswordInput"; 
 
 const validation = yup.object({
   username: yup.string().required("Username is required"),
